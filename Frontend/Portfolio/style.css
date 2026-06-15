@@ -11,11 +11,11 @@ body{
 .Navbar{
     display: flex;
     justify-content: space-around;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     background-color: rgb(242, 167, 167);
     padding: 15px ;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .navItem:link{
@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 .leftDiv {
@@ -53,6 +53,7 @@ body{
     border-radius: 5px;
     font-size: 1rem;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 .btn:hover{
     background-color: rgb(236, 145, 145);
@@ -113,12 +114,13 @@ body{
 .perInfo{
     padding: 30px;
     margin: 0 auto;
-    border: 1px solid brown;
-    border-radius: 20px;
+    /* border: 1px solid brown; */
+    border-radius: 10px;
     background-color: rgb(240, 211, 211);
     text-align: center;
-    width: 95%;
+    width: 60%;
     height: 110px;
+    margin-bottom: 1rem;
 }
 .contactInfo{
     padding: 30px;
